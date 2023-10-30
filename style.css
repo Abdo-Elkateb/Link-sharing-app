@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&family=Rubik:ital,wght@0,400;0,700;1,800&family=Shantell+Sans:ital,wght@0,300;0,400;0,700;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #603bfb;
+    --sp-color: #efebfe;
+    --body-color: #fafafa;
+    --Paragraph-color: #9d9d9d;
+    --font-family: 'Roboto', sans-serif;
+
+
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 94%;
+    margin: auto;
+}
+
+body {
+    background: #fafafa;
+    font-family: var(--font-family);
+}
+
+.nav .container {
+    background: #ffffff;
+    height: 100px;
+    margin-top: 30px;
+    padding: 0px 20px;
+    border-radius: 10px;
+
+}
+
+.nav .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+
+}
+
+.nav .devlinks h1 {
+    font-size: 30px;
+    color: #2f2f2f;
+    font-weight: bold;
+}
+
+.nav i {
+    color: #603bfb;
+    margin-right: 5px;
+}
+
+.nav .pages a {
+    padding: 12px 25px;
+    margin-right: 30px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.nav .pages .link {
+    background: #efebfe;
+    color: #775ce3;
+}
+
+.nav .link-profile,
+.nav .link-profile i {
+    color: #9d9d9d;
+    transition: all .3s;
+}
+
+.nav .link-profile:hover {
+    background: #efebfe;
+    color: #775ce3;
+}
+
+.nav #preview {
+    padding: 12px 25px;
+    background: none;
+    border: none;
+    color: #603bfb;
+    border: 1px solid #603bfb;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.nav #preview:hover {
+    background: #603bfb;
+    color: #fff;
+
+}
+
+.send-links {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 30px;
+    gap: 10px;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.send-links .iphone-logo {
+    position: relative;
+    margin-top: 30px;
+}
+
+.send-links .gethub {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    background: #191919;
+    top: 43%;
+    height: 48px;
+    border-radius: 10px;
+    left: 30px;
+    width: 244px;
+    color: #fff;
+
+}
+
+.send-links .logo-github {
+    background: #fafafa;
+
+}
+
+.send-links .gethub h2 {
+    font-size: 14px;
+    margin-right: 110px;
+    /* margin-left: 50px;
+    margin-right:180px; */
+
+}
+
+.send-links .youtube {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    background: #ef383a;
+    top: 53%;
+    height: 48px;
+    border-radius: 10px;
+    left: 30px;
+    width: 244px;
+    color: #fff;
+
+}
+
+.send-links .logo-github {
+    background: #fafafa;
+
+}
+
+.send-links .youtube h2 {
+    font-size: 14px;
+    margin-right: 110px;
+    /* margin-left: 50px;
+    margin-right:180px; */
+
+}
+.send-links .linkedin {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    background: #2d69fe;
+    top: 63%;
+    height: 48px;
+    border-radius: 10px;
+    left: 30px;
+    width: 244px;
+    color: #fff;
+
+}
+
+.send-links .logo-github {
+    background: #fafafa;
+
+}
+
+.send-links .linkedin h2 {
+    font-size: 14px;
+    margin-right: 110px;
+    /* margin-left: 50px;
+    margin-right:180px; */
+
+}
+
+/*customize  */
+
+.customize {
+
+}
+.customize h1 {
+
+}
+.customize p {
+
+}
+.customize .link1 {
+
+}
+.customize .link1 
