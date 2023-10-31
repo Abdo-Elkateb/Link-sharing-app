@@ -172,6 +172,7 @@ body {
     margin-right:180px; */
 
 }
+
 .send-links .linkedin {
     display: flex;
     justify-content: space-evenly;
@@ -203,15 +204,94 @@ body {
 /*customize  */
 
 .customize {
+    padding: 40px;
+    width: 100%;
 
 }
+
 .customize h1 {
+    color: #2e2e2e;
+    font-size: 35px;
+    margin-bottom: 20px;
 
 }
+
 .customize p {
+    color: #949494;
+    margin-bottom: 30px;
 
 }
+
+.customize .add-new-link {
+    width: 100%;
+    background: none;
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.customize .add-new-link:hover {
+    background: #603bfb;
+    color: #fff;
+}
+
 .customize .link1 {
+    background: #fafafa;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.customize .link1 .selector {
+    /* background: red; */
+}
+
+.customize .link1 #selecetfield {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 30px;
+    background: #fff;
+    position: relative;
+     border-radius: 7px;
+
+    
 
 }
-.customize .link1 
+.customize .link1 #selecetfield p {
+ color:#ef383a; 
+ position: absolute;
+transform: translate(55%, 90%);
+}
+.customize .link1 #list {
+    width: 100%;
+    background: #fff;
+    border-radius: 7px;
+
+}
+.customize .link1 .options {
+    width: 100%;
+    padding:15px 0 15px 70px;
+    list-style: none;
+        position: relative;
+        transition: all .3s;
+        border-radius: 7px;
+}
+.customize .link1 .options:hover {
+    background-color: #fafafa;
+    border: 1px solid var(--main-color);
+}
+.customize .link1 .options  img{
+    position: absolute;
+        top: 16px;
+        left: 32px;
+}
+
+.customize .link1 ul p {
+    /* color:#603bfb; */
+}
