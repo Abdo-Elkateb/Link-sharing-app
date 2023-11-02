@@ -1,1 +1,1 @@
-# Link-sharing-app-javascript
+# Link-sharing-app
