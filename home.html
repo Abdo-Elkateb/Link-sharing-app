@@ -1,97 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- file css -->
-        <link rel="stylesheet" href="style.css">
-        <!-- responsive file -->
-        <link rel="stylesheet" href="responsive.css">
-        <!-- font awesome -->
-        <link rel="stylesheet" href="font-6/css/all.css">
-        <title>Document</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- file css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive file -->
+    <link rel="stylesheet" href="responsive.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="font-6/css/all.css">
+    <title>Document</title>
+</head>
 
-    <body>
+<body>
 
-        <!-- navbber -->
-        <nav class="nav">
-            <div class="container">
-                <div class="devlinks">
-                    <img src="images/logo-devlinks-large.svg" alt>
-                </div>
-                <div class="pages">
-                    <a class="link" href="#">
-                        <i class="fa-solid fa-paperclip"></i>
-                        links</a>
-                    <a class="link-profile" href="#">
-                        <i class="fa-regular fa-user"></i>
-                        profile Details
-                    </a>
-                </div>
-                <div class="preview">
-                    <input id="preview" type="submit" value="preview">
-
-                </div>
+    <!-- navbber -->
+    <nav class="nav">
+        <div class="container">
+            <div class="devlinks">
+                <img src="images/logo-devlinks-large.svg" alt>
             </div>
-        </nav>
-        <!-- header -->
-        <header class="send-links container">
-            <div class="iphone-logo">
-                <img src="images/illustration-phone-mockup.svg" alt>
-                <div class="gethub">
-                    <i class="fa-brands fa-github"></i>
-                    <h2>GitHub</h2>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-                <div class="youtube">
-                    <i class="fa-brands fa-youtube"></i>
-                    <h2>YouTube</h2>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
-                <div class="linkedin">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <h2>linkedin</h2>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
+            <div class="pages">
+                <a class="link" href="#">
+                    <i class="fa-solid fa-paperclip"></i>
+                    links</a>
+                <a class="link-profile" href="#">
+                    <i class="fa-regular fa-user"></i>
+                    profile Details
+                </a>
             </div>
-            <div class="customize">
-                <h1>customize your links</h1>
-                <p>add/ adit/remove links below and then shrae all your profiles
-                    with the world!</p>
-                <form action>
-                    <input class="add-new-link" type="submit" value="+ Add new link">
-                    <div class="link1">
-                        <div class="selector">
-                            <div id="selecetfield">
-                                <img src="images/icon-github.svg" alt="">
-                                <p>GitHub</p>
-                                <img src="images/icon-twitch.svg" alt="">
+            <div class="preview">
+                <input id="preview" type="submit" value="preview">
+
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+    <header class="send-links container">
+        <div class="iphone-logo">
+            <img src="images/illustration-phone-mockup.svg" alt>
+            <div class="gethub">
+                <i class="fa-brands fa-github"></i>
+                <h2>GitHub</h2>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="youtube">
+                <i class="fa-brands fa-youtube"></i>
+                <h2>YouTube</h2>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+                <h2>linkedin</h2>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+        <div class="customize">
+
+            <h1>customize your links</h1>
+            <p>add/ adit/remove links below and then shrae all your profiles
+                with the world!</p>
+            <form action="#" id="form-main">
+                <input class="add-new-link" type="submit" value="+ Add new link">
+                <div class="link1">
+                    <div class="selector">
+                        <div class="linkes-main">
+                            <div>
+                                <i class="fa-solid fa-grip-lines drag"></i>
+                                <!-- <img class="drag" src="images/icon-drag-and-drop.svg" alt=""> -->
+                                <h4>link #1</h4>
                             </div>
-                            <ul id="list">
-                                <li class="options">
-                                    <img src="images/icon-youtube.svg" alt="">
-                                    <p>youtube</p>
-                                </li>
-                                <li class="options">
-                                    <img src="images/icon-linkedin.svg" alt="">
-                                    <p>linkedin</p>
-                                </li>
-                            </ul>
-
+                            <div>
+                                <p class="remove">remove</p>
+                            </div>
                         </div>
+                        <span>platform</span>
 
                     </div>
+                    <div id="selecetfield">
+                        <img src="images/icon-github.svg" alt>
+                        <p id="selecet-Social-media">GitHub</p>
+                        <img id="arrowIcon" src="images/icon-chevron-down.svg" alt>
+                    </div>
+                    <ul id="list" class="hide">
+                        <li class="options">
+                            <img src="images/icon-youtube.svg" alt>
+                            <p>youtube</p>
+                        </li>
+                        <li class="options">
+                            <img src="images/icon-linkedin.svg" alt>
+                            <p>linkedin</p>
+                        </li>
+                    </ul>
+                    <span>link</span>
+                    <input id="chose-link" class="chose-link" type="text" id="link" placeholder="https://wwww.GitHub.com">
 
-                </form>
+                </div>
+                    <div class="link1">
+                        <div class="selector">
+                            <div class="linkes-main">
+                                <div>
+                                    <i class="fa-solid fa-grip-lines drag"></i>
+                                    <!-- <img class="drag" src="images/icon-drag-and-drop.svg" alt=""> -->
+                                    <h4>link #1</h4>
+                                </div>
+                                <div>
+                                    <p class="remove">remove</p>
+                                </div>
+                            </div>
+                            <span>platform</span>
+                    
+                        </div>
+                        <div id="selecetfield">
+                            <img src="images/icon-github.svg" alt>
+                            <p id="selecet-Social-media">GitHub</p>
+                            <img id="arrowIcon" src="images/icon-chevron-down.svg" alt>
+                        </div>
+                        <ul id="list" class="hide">
+                            <li class="options">
+                                <img src="images/icon-youtube.svg" alt>
+                                <p>youtube</p>
+                            </li>
+                            <li class="options">
+                                <img src="images/icon-linkedin.svg" alt>
+                                <p>linkedin</p>
+                            </li>
+                        </ul>
+                        <span>link</span>
+                        <input id="chose-link" class="chose-link" type="text" id="link" placeholder="https://wwww.GitHub.com">
+                    
+                    </div>
+                
+            </form>
+            
+                <div class="line"></div>
+                <div class="save">
+                    <input type="submit" value="save" id="save">
+                </div>
+        </div>
 
-            </div>
+        </form>
 
-        </header>
+        </div>
 
-        <!-- js -->
-        <script src="app.js"></script>
-    </body>
+    </header>
+
+    <!-- js -->
+    <script src="app.js"></script>
+</body>
 
 </html>
