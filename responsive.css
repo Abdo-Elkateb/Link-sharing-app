@@ -1,0 +1,87 @@
+/*  1200 */
+
+
+/* 1024 992 768 600 */
+@media screen and (max-width: 997px) {
+   .send-links {
+      grid-template-columns: 100%;
+   }
+
+   .send-links .iphone-logo {
+      display: none;
+   }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+
+   .devlinks-img {
+      width: 70%;
+
+   }
+
+   .nav .pages a {
+      padding: 12px 20px;
+      margin-right: 10px;
+      border-radius: 6px;
+      font-size: 15px;
+      font-weight: bold;
+
+   }
+
+   .nav #preview {
+      padding: 12px 20px;
+      font-size: 14px;
+   }
+}
+
+@media screen and (max-width:625px) {
+
+   .nav .devlinks {
+      width: 130px;
+
+   }
+
+   .nav .pages a {
+      padding: 10px 10px;
+      margin-right: 10px;
+      font-size: 13px;
+      font-weight: bolder;
+   }
+
+   .nav #preview {
+      padding: 10px 10px;
+      font-size: 13px;
+   }
+
+   .customize h1 {
+      font-size: 30px;
+
+   }
+
+   .customize p {
+      font-size: 13px;
+
+   }
+
+   .customize .add-new-link {
+      font-size: 13px;
+
+   }
+      .customize .linkes-main h4 {
+         font-size: 15px;
+   
+      }
+                  .customize .link1 #selecetfield,
+                  .customize .link1 .chose-link {
+                     padding: 14px 25px;
+                  }
+
+}
+
+@media screen and (max-width:490px) {
+   
+}
+
