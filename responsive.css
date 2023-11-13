@@ -2,7 +2,7 @@
 
 
 /* 1024 992 768 600 */
-@media screen and (max-width: 997px) {
+@media screen and (max-width: 1200px) {
    .send-links {
       grid-template-columns: 100%;
    }
@@ -11,77 +11,162 @@
       display: none;
    }
 
+   .devlinks-img {
+
+      /* width: 200px !important;
+   height: 40px; */
+   }
 
 }
 
 @media screen and (max-width:768px) {
 
 
-   .devlinks-img {
-      width: 70%;
+   /* .devlinks-img {
+   width: 150px;
+} */
+   .link {
+      padding: 13px 10px;
+      margin-right: 30px;
+      border-radius: 6px;
+      font-size: 14px;
 
    }
 
-   .nav .pages a {
-      padding: 12px 20px;
-      margin-right: 10px;
+
+   .nav .profile {
+      padding: 13px 10px;
+      margin-right: 30px;
       border-radius: 6px;
-      font-size: 15px;
-      font-weight: bold;
+      font-size: 14px;
 
    }
 
    .nav #preview {
-      padding: 12px 20px;
+      padding: 13px 10px;
+      font-size: 14px;
+   }
+   /* page datails */
+   .datails_profile p:last-child {
+      font-size: 13px;
+   }
+}
+
+@media screen and (max-width:690px) {
+   .nav .container {
+      justify-content: flex-start;
+
+   }
+
+   .devlinks {
+      width: 110px !important;
+
+   }
+
+   .link {
+      padding: 13px 10px;
+      margin-right: 30px;
+      border-radius: 6px;
+      font-size: 14px;
+
+   }
+
+
+   .nav .profile {
+      padding: 13px 10px;
+      margin-right: 30px;
+      border-radius: 6px;
+      font-size: 14px;
+
+   }
+
+   .nav #preview {
+      padding: 13px 10px;
       font-size: 14px;
    }
 }
 
-@media screen and (max-width:625px) {
+.links h1 {
+   font-size: 30px;
 
-   .nav .devlinks {
-      width: 130px;
+}
+
+.links p {
+   font-size: 13px;
+
+}
+
+.links .add-new-link {
+   font-size: 13px;
+
+}
+
+.links .linkes-main h4 {
+   font-size: 15px;
+
+}
+
+.links .link1 #selecetfield,
+.links .link1 .chose-link {
+   padding: 14px 25px;
+}
+
+
+
+@media screen and (max-width:590px) {
+.nav {
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      justify-content: space-around;
+      /* align-items: center; */
+      min-height: 100px;
+      /* background: #d20404; */
+      width: 100%;
+      margin-top: 30px;
+      /* padding: 0px 20px; */
+
+   }
+      
+
+   .devlinks {
+      background-image: url(images/logo-devlinks-small.svg);
+      width: 25% !important;
 
    }
 
-   .nav .pages a {
-      padding: 10px 10px;
-      margin-right: 10px;
-      font-size: 13px;
-      font-weight: bolder;
+   .link a {
+      display: none;
    }
 
+   .nav .profile a {
+      display: none;
+   }
+
+   .nav .preview {
+      background-image: url(images/icon-preview-header.svg);
+      width: 100px;
+      max-width: 100%;
+      height: 20px;
+      background-repeat: no-repeat;
+   }
    .nav #preview {
-      padding: 10px 10px;
-      font-size: 13px;
+      display: none;
    }
+   /* datails_profile */
+   .change-image {
 
-   .customize h1 {
-      font-size: 30px;
-
-   }
-
-   .customize p {
-      font-size: 13px;
-
-   }
-
-   .customize .add-new-link {
-      font-size: 13px;
+         background: #fafafa;
+         display: flex;
+         flex-direction: column;
+         /* grid-template-columns: 1fr; */
+         justify-content: center !important;
+         align-items: center;
+         height: auto !important;
 
    }
-      .customize .linkes-main h4 {
-         font-size: 15px;
-   
-      }
-                  .customize .link1 #selecetfield,
-                  .customize .link1 .chose-link {
-                     padding: 14px 25px;
-                  }
+            .datails_profile p:last-child {
+               font-size: 15px;
+            }
 
 }
-
-@media screen and (max-width:490px) {
-   
-}
-

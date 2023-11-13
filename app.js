@@ -5,8 +5,14 @@ let mocialMedia = document.getElementById('selecet-Social-media')
 let options = document.getElementsByClassName('options')
 let list = document.getElementById('list')
 let arrowIcon = document.getElementById('arrowIcon')
+let chosePic = document.getElementById('right')
+let choseFile = document.getElementById('chose-file')
 
-console.log(list)
+choseFile.addEventListener("change", ()=> {
+    chosePic.src = URL.createObjectURL(choseFile.files[0]);
+
+}) 
+
 
 selecetField.onclick = function () {
     list.classList.toggle("hide");
@@ -22,4 +28,3 @@ for (option of options) {
         arrowIcon.classList.toggle("rotate");
     }
 }
-console.log(mocialMedia)

@@ -16,31 +16,45 @@
 <body>
 
     <!-- navbber -->
-    <nav class="nav">
-        <div class="container">
+    <div class="container">
+        <nav class="nav">
+
             <div class="devlinks">
-                <img class="devlinks-img" src="images/logo-devlinks-large.svg" alt>
+
+
+                <!-- <img class="devlinks-img" src="images/logo-devlinks-large.svg" alt> -->
             </div>
-            <div class="pages">
-                <a class="link" href="#">
-                    <i class="fa-solid fa-paperclip"></i>
+
+            <div class="link">
+                <i class="fa-solid fa-paperclip"></i>
+                <a class="link" href="home.html">
                     links</a>
-                <a class="link-profile" href="#">
-                    <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="profile">
+                <i class="fa-regular fa-user"></i>
+                <a class="link-profile" href="profile.html">
                     profile Details
                 </a>
             </div>
+
+
             <div class="preview">
                 <input id="preview" type="submit" value="preview">
 
+
             </div>
-        </div>
-    </nav>
+
+
+
+        </nav>
+    </div>
+
+
     <!-- header -->
     <header class="send-links container">
         <div class="iphone-logo">
             <img class="phone-mockup" src="images/illustration-phone-mockup.svg" alt>
-            
+
             <div class="gethub">
                 <i class="fa-brands fa-github"></i>
                 <h2>GitHub</h2>
@@ -57,14 +71,14 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
         </div>
-        <div class="customize">
+        <div class="links">
 
             <h1>customize your links</h1>
             <p>add/ adit/remove links below and then shrae all your profiles
                 with the world!</p>
             <form action="#" id="form-main">
                 <input class="add-new-link" type="submit" value="+ Add new link">
-                <div class="link1">
+                <div class="first-link">
                     <div class="selector">
                         <div class="linkes-main">
                             <div>
@@ -94,50 +108,52 @@
                         </li>
                     </ul>
                     <span>link</span>
-                    <input id="chose-link" class="chose-link" type="text" id="link" placeholder="https://wwww.GitHub.com">
+                    <input id="chose-link" class="chose-link" type="text" id="link"
+                        placeholder="https://wwww.GitHub.com">
 
                 </div>
-                    <div class="link1">
-                        <div class="selector">
-                            <div class="linkes-main">
-                                <div>
-                                    <i class="fa-solid fa-grip-lines drag"></i>
-                                    <!-- <img class="drag" src="images/icon-drag-and-drop.svg" alt=""> -->
-                                    <h4>link #1</h4>
-                                </div>
-                                <div>
-                                    <p class="remove">remove</p>
-                                </div>
+                <div class="first-link">
+                    <div class="selector">
+                        <div class="linkes-main">
+                            <div>
+                                <i class="fa-solid fa-grip-lines drag"></i>
+                                <!-- <img class="drag" src="images/icon-drag-and-drop.svg" alt=""> -->
+                                <h4>link #2</h4>
                             </div>
-                            <span>platform</span>
-                    
+                            <div>
+                                <p class="remove">remove</p>
+                            </div>
                         </div>
-                        <div id="selecetfield">
-                            <img src="images/icon-github.svg" alt>
-                            <p id="selecet-Social-media">GitHub</p>
-                            <img id="arrowIcon" src="images/icon-chevron-down.svg" alt>
-                        </div>
-                        <ul id="list" class="hide">
-                            <li class="options">
-                                <img src="images/icon-youtube.svg" alt>
-                                <p>youtube</p>
-                            </li>
-                            <li class="options">
-                                <img src="images/icon-linkedin.svg" alt>
-                                <p>linkedin</p>
-                            </li>
-                        </ul>
-                        <span>link</span>
-                        <input id="chose-link" class="chose-link" type="text" id="link" placeholder="https://wwww.GitHub.com">
-                    
+                        <span>platform</span>
+
                     </div>
-                
-            </form>
-            
-                <div class="line"></div>
-                <div class="save">
-                    <input type="submit" value="save" id="save">
+                    <div id="selecetfield">
+                        <img src="images/icon-github.svg" alt>
+                        <p id="selecet-Social-media">GitHub</p>
+                        <img id="arrowIcon" src="images/icon-chevron-down.svg" alt>
+                    </div>
+                    <ul id="list" class="hide">
+                        <li class="options">
+                            <img src="images/icon-youtube.svg" alt>
+                            <p>youtube</p>
+                        </li>
+                        <li class="options">
+                            <img src="images/icon-linkedin.svg" alt>
+                            <p>linkedin</p>
+                        </li>
+                    </ul>
+                    <span>link</span>
+                    <input id="chose-link" class="chose-link" type="text" id="link"
+                        placeholder="https://wwww.GitHub.com">
+
                 </div>
+
+            </form>
+
+            <div class="line"></div>
+            <div class="save">
+                <input type="submit" value="save" id="save">
+            </div>
         </div>
 
         </form>
