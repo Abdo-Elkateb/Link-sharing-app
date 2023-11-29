@@ -13,35 +13,33 @@
     <title>Document</title>
 </head>
 
-<body>
+<body id="body">
 
     <!-- navbber -->
     <div class="container">
+    
         <nav class="nav">
-
-            <div class="devlinks"> </div>
-
-            <div class="datails">
+    
+            <div class="devlinks">
+    
+                <img class="devlinks-img" src="images/logo-devlinks-large.svg" alt>
+            </div>
+    
+            <div class="main active our">
                 <i class="fa-solid fa-paperclip"></i>
                 <a class="link" href="home.html">
-                    link</a>
+                    links</a>
             </div>
-            <div class="profile">
+            <div class="profile our">
                 <i class="fa-regular fa-user"></i>
                 <a class="link-profile" href="profile.html">
                     profile Details
                 </a>
             </div>
-
-
             <div class="preview">
-                <input id="preview" type="submit" value="preview">
-
-
+                <div class="preview-img"></div>
+                <input id="preview-submit" type="submit" value="preview">
             </div>
-
-
-
         </nav>
     </div>
 
@@ -67,6 +65,8 @@
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
         </div>
+
+        <!-- datails_profile -->
         <div class="datails_profile">
 
             <h1>profile details</h1>
@@ -86,9 +86,6 @@
                                 change image
                                 <input type="file" id="chose-file" multiple>
                             </label>
-
-                     
-
 
                     </div>
                     <div class="size-image">
